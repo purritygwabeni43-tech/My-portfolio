@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Contact page">
+</head>
+<body>
+    <header class="navcontainer">
+        <nav>
+            <a class="nav-link" href="page1.html">Home</a>
+            <a class="nav-link" href="page2.html">About</a>
+            <a class="nav-link" href="page3.html">Interests</a>
+            <a class="nav-link" href="page4.html">Contact</a>
+        </nav>
+    </header>
+
+    <main class="contact-page">
+        <div class="contact-container">
+            <section class="contact-form">
+                <h1>Contact Me</h1>
+                <p class="lead">Have a project, question, or collaboration? Send a message and I'll get back to you promptly.</p>
+                <form action="https://formspree.io/f/mzdwnkvb" method="POST">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your full name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" placeholder="Write your message here..." required></textarea>
+
+                    <button class="submit-btn" type="submit">Send Message</button>
+                </form>
+            </section>
+
+            <aside class="contact-info">
+                <div class="card">
+                    <h2>Quick Info</h2>
+                    <p>Email: purritygwabeni43@gmail.com</p>
+                    <p>Location: Cape Town, South Africa</p>
+                </div>
+
+                <div class="card interests-card">
+                    <h2>Interests</h2>
+                    <table class="interests-table">
+                        <thead>
+                            <tr>
+                                <th>Category</th>
+                                <th>Favorites</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Music</td>
+                                <td>R&B, HIP-HOP</td>
+                            </tr>
+                            <tr>
+                                <td>Movies</td>
+                                <td>Drama, Sci-fi,</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </aside>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2026 Purrity Gwabeni. All rights reserved.</p>
+    </footer>
+</body>
+</html>
